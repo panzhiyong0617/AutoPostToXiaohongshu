@@ -4,7 +4,7 @@ def post_to_xhs(content, image_path=None):
 url = "https://www.xiaohongshu.com/api/sns/web/v1/note/draft/create"
 headers = {
 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-"Cookie": "19cfebe756684si7muoudamp2wilid69xnka1eioe50000173736"
+"Cookie": web_session=19cfebe756684si7muoudamp2wilid69xnka1eioe50000173736，a1=040069b9ab0c538d6b5c1f118f3b4be0bfdcb4
 }
 data = {
 "title": "自动发布的标题",
