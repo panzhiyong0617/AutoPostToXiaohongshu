@@ -1,0 +1,8 @@
+name: Simple XHS Post
+on: workflow_dispatch
+jobs:
+post:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+- run: pip install requests && python post_to_xhs.py
